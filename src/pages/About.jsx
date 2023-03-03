@@ -1,6 +1,6 @@
 import React from 'react'
 import harshal from "../assets/Harshal.jfif"
-import Arun from "../assets/Arun.jpg"
+import Arun from "../assets/Arun.jpg" 
 import gaurav from "../assets/Gaurav.jpg"
 import {BsInstagram, BsLinkedin,BsGithub} from 'react-icons/bs'
 import { useSelector } from 'react-redux'
