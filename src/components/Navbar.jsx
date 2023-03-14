@@ -28,7 +28,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="w-screen fixed p-3 border-gray-200 rounded bg-black">
+      <nav className="w-screen  p-3 border-gray-200 rounded bg-black">
         <div className="flex items-center justify-center ">
         <button
             type="button"

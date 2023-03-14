@@ -1,5 +1,6 @@
 import React from 'react'
 import harshal from "../assets/Harshal.jfif"
+import Arpit from "../assets/arpit.jpg" 
 import Arun from "../assets/Arun.jpg" 
 import gaurav from "../assets/Gaurav.jpg"
 import {BsInstagram, BsLinkedin,BsGithub} from 'react-icons/bs'
@@ -43,7 +44,7 @@ const About = () => {
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="src\assets\hanuman.png"/>
+          <img alt="team" className="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={Arpit}/>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-gray-900">Arpit Patel</h2>
             <h3 className="text-gray-500 mb-3">Machine Learning and Documentation</h3>
